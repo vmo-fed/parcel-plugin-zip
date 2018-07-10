@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmo-fed/parcel-plugin-zip.git"
+  },
+  "homepage": "https://github.com/vmo-fed/parcel-plugin-zip.git#readme",
   "author": "",
   "license": "ISC"
 }
