@@ -1,6 +1,6 @@
 {
   "name": "@vmo-fed/parcel-plugin-zip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
