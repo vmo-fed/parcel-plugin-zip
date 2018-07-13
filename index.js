@@ -12,7 +12,7 @@ module.exports = function (bundler) {
     const zipDir = path.dirname(bundle.name);
     const zipFile = zipDir + '.zip';
 
-    exec(`zip -r ${zipFile} ${zipDir}/*`, (error) => {
+    exec(`zip -j ${zipFile} ${zipDir}/*`, (error) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return;
